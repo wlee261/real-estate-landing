@@ -1,5 +1,6 @@
 @use '../tools/mixins';
 @use '../design-tokens/assets';
+@use '../design-tokens/colors';
 
 .home-background {
     @include mixins.apply-background(assets.$house-image);
@@ -21,4 +22,30 @@
 .home-background--area {
     font-size: 20px;
     color: white;
+}
+
+.home-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-testimonials {
+    margin-top: 100px;
+}
+
+.home-testimonials--header {
+    padding-left: 35px;
+}
+
+.home-locations {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-location--header {
+    padding: 15px;
 }

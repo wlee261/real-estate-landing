@@ -2,8 +2,14 @@
 @use '../tools/mixins';
 
 .footer-container {
+    margin-top: 80px;
     width: 100%;
 }
+
+.footer-top--section {
+    @include mixins.flex-column-centered();
+}
+
 
 .footer-bottom--section {
     @include mixins.flex-column-centered();
@@ -17,4 +23,13 @@
 
 .footer-text--chunk {
     padding: 6px;
+}
+
+.footer-text--disclaimer{
+    font-size: 12px;
+    margin: 20px;
+}
+
+.footer-text--contact {
+    padding: 3px;
 }

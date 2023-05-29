@@ -1,0 +1,29 @@
+.description-card--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.description-card--text {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.description-card--title {
+    font-size: 35px;
+    padding: 12px;
+}
+
+.description-card--paragraph {
+    font-size: 17px;
+    padding: 12px 25px 12px 12px;
+}
+
+.description-card--image {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+}

@@ -1,0 +1,12 @@
+.connect-button {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    margin: 15px;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}

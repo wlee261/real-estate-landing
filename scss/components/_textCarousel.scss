@@ -1,0 +1,12 @@
+@use '../design-tokens/colors';
+
+.carousel-item {
+    height: 300px;
+    background-color: colors.$light-gray;
+}
+
+.carousel-caption {
+    top: 40px;
+    bottom: auto;
+    color: black !important;
+}

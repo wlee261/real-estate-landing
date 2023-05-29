@@ -3,4 +3,13 @@
 @import "design-tokens/colors",
         "design-tokens/assets";
 @import "components/footer",
-        "components/home";
+        "components/home",
+        "components/descriptionCard",
+        "components/textCarousel",
+        "components/locationCard",
+        "components/locations",
+        "components/connectButton";
+
+* {
+    font-family: var(--montserrat-font), sans-serif !important;
+}
