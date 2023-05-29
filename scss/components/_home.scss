@@ -1,0 +1,24 @@
+@use '../tools/mixins';
+@use '../design-tokens/assets';
+
+.home-background {
+    @include mixins.apply-background(assets.$house-image);
+    @include mixins.flex-column-centered();
+}
+
+.home-background--name {
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+.home-background--license {
+    font-size: 20px;
+    color: white;
+    margin: 16px 0 16px 0;
+}
+
+.home-background--area {
+    font-size: 20px;
+    color: white;
+}

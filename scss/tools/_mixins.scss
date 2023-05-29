@@ -1,0 +1,14 @@
+@mixin flex-column-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin apply-background($path-to-image) {
+    background-image: url(#{$path-to-image});
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
