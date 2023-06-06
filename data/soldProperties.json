@@ -1,0 +1,50 @@
+[
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    },
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    },
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    },
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    },
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    },
+    {
+        "address": "123 Mauvile Ave",
+        "price":"4,500,000",
+        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
+        "numBeds": "3",
+        "numBaths":"3.5",
+        "sqft":"4500"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "key": "saratoga",
+        "location": "saratoga",
+        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+    },
+    {
+        "key":"palo-alto",
+        "location": "palo alto",
+        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+    },
+    {
+        "key":"los-altos",
+        "location": "los altos",
+        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+    }
+]

@@ -5,7 +5,7 @@ import profile from "../assets/profile.jpg";
 import TextCarousel from "@/components/TextCarousel";
 import Locations from "@/components/Locations";
 
-import { aboutParagraphs, testimonials, reviewers } from "@/utils/paragraphs";
+import { aboutParagraphs, testimonials, reviewers } from "@/data/paragraphs";
 
 const HomePage = () => {
   return (

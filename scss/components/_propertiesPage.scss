@@ -1,0 +1,16 @@
+@use '../tools/mixins';
+@use '../design-tokens/breakpoints';
+
+.properties-page--container {
+    @include mixins.flex-column-centered();
+}
+
+.sold-properties--cards-container {
+    
+    display: grid;
+    @media (max-width: breakpoints.$md) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+}

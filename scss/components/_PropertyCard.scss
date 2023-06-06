@@ -1,0 +1,53 @@
+@use '../tools/mixins';
+
+.property-card--container {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    @include mixins.flex-column-centered();
+    padding: 10px;
+}
+
+.property-card--image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.property-card--text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card--address-price-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.property-card--address-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.property-card--price-text {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.property-card--full-address-text {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.property-card--rooms-text {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.property-card--more-details-text {
+    margin-top: 20px;
+    font-size: 14px;
+}

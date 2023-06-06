@@ -8,8 +8,16 @@ const Locations = () => {
   return (
     <div className="locations-container">
       <LocationCard className="location" image={saratoga} location="saratoga" />
-      <LocationCard className="location" image={saratoga} location="saratoga" />
-      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard
+        className="location"
+        image={saratoga}
+        location="palo alto"
+      />
+      <LocationCard
+        className="location"
+        image={saratoga}
+        location="los altos"
+      />
       <LocationCard className="location" image={saratoga} location="saratoga" />
       <LocationCard className="location" image={saratoga} location="saratoga" />
       <LocationCard className="location" image={saratoga} location="saratoga" />

@@ -6,7 +6,7 @@ import TextCarousel from "@/components/TextCarousel";
 import profile from "../../assets/profile.jpg";
 import sceneryBridge from "../../assets/scenery-bridge.jpg";
 
-import { aboutParagraphs, testimonials, reviewers } from "@/utils/paragraphs";
+import { aboutParagraphs, testimonials, reviewers } from "@/data/paragraphs";
 
 import React from "react";
 import Image from "next/image";

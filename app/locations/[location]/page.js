@@ -1,7 +1,12 @@
 import Image from "next/image";
-import saratogaImg from "../../assets/saratoga.jpg";
+import saratogaImg from "../../../assets/saratoga.jpg";
+
+import locations from "@/data/locations.json";
 
 export default function Page({ params }) {
+  const location = locations.find(
+    (location) => location.key === params.location
+  );
   return (
     <div>
       <div className="location--background-image-container">
@@ -10,9 +15,11 @@ export default function Page({ params }) {
           fill={true}
           className="location--background-image"
         />
-        <span className="location--location-name">SARATOGA</span>
+        <span className="location--location-name">
+          {location.location.toUpperCase()}
+        </span>
         <span className="location--location-description">
-          Vibrant Silicon Valley community nestled in scenic foothills.
+          {location.titleDescription}
         </span>
       </div>
       <p>Location: {params.location}</p>
