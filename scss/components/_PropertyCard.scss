@@ -5,7 +5,11 @@
     height: auto;
     max-width: 700px;
     @include mixins.flex-column-centered();
-    padding: 10px;
+    padding: 20px;
+}
+
+.property-card--container:hover {
+    cursor: pointer;
 }
 
 .property-card--image-container {
@@ -50,4 +54,12 @@
 .property-card--more-details-text {
     margin-top: 20px;
     font-size: 14px;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+.property-card--more-details-text:hover {
+    text-decoration: underline;
+    transition: ease-in;
+    transition-duration: 0.3s;
 }

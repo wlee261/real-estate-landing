@@ -1,16 +1,41 @@
 @use '../tools/mixins';
 @use '../design-tokens/breakpoints';
 
+.properties--background-image-container {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+    @include mixins.flex-column-centered();
+}
+
+.properties--background-image {
+    object-fit: cover;
+    z-index: -1;
+}
+
+.properties--header {
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+
 .properties-page--container {
     @include mixins.flex-column-centered();
 }
 
 .sold-properties--cards-container {
-    
+    margin-top: 50px;
     display: grid;
     @media (max-width: breakpoints.$md) {
         grid-template-columns: repeat(1, 1fr);
     }
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
+}
+
+.properties--subheader {
+    margin-top: 20px;
+    color: white;
+    font-size: 19px;
 }

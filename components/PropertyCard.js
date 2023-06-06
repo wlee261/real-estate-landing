@@ -16,7 +16,7 @@ const PropertyCard = ({
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/sold-properties/${makeUrlFriendly(fullAddress)}`);
+    router.push(`/sold-properties/${makeUrlFriendly(address)}`);
   };
   return (
     <div className="property-card--container" onClick={handleClick}>

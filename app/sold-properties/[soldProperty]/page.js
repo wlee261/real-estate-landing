@@ -1,5 +1,14 @@
 import React from "react";
 
+import soldProperties from "@/data/soldProperties.json";
+
 export default function Page({ params }) {
-  return <div>Property: {params.soldProperty}</div>;
+  const soldPropertyInfo = soldProperties.find((soldProperty) => {
+    return soldProperty.key === params.soldProperty;
+  });
+  return (
+    <div>
+      <span>{soldPropertyInfo.description}</span>
+    </div>
+  );
 }
