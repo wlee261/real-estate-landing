@@ -58,10 +58,13 @@ const NavbarLink = ({ label, path }) => {
         href={path}
         sx={{
           display: "flex",
-          color: "inherit",
+          color: "white",
           textDecoration: "none",
           fontWeight: "inherit",
           fontSize: 16,
+          "&:hover": {
+            color: "white",
+          },
         }}
       >
         {label}

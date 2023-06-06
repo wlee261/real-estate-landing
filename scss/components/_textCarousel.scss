@@ -1,12 +1,21 @@
 @use '../design-tokens/colors';
+@use '../design-tokens/breakpoints';
 
 .carousel-item {
-    height: 300px;
     background-color: colors.$light-gray;
+    height: 400px;
+    @media(win-width: breakpoints.$sm) {
+        height: 350px;
+    }
+    @media(min-width: breakpoints.$md) {
+        height: 300px;
+
+    }
 }
 
 .carousel-caption {
     top: 40px;
     bottom: auto;
     color: black !important;
+    padding-bottom: 30px;
 }

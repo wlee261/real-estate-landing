@@ -4,6 +4,12 @@ import React from "react";
 import ConnectButton from "./ConnectButton";
 import "../scss/components/_footer.scss";
 
+import {
+  AiFillLinkedin,
+  AiFillInstagram,
+  AiFillFacebook,
+} from "react-icons/ai";
+
 const Footer = () => {
   return (
     <div className="footer-container">
@@ -11,6 +17,17 @@ const Footer = () => {
         <ConnectButton />
         <span className="footer-text--contact">(408) 111-1111</span>
         <span className="footer-text--contact">email@compass.com</span>
+        <div className="footer-text--socials">
+          <a href="https://www.linkedin.com/in/joansung">
+            <AiFillLinkedin size={30} />
+          </a>
+          <a href="https://www.instagram.com/jsung68/">
+            <AiFillInstagram size={30} />
+          </a>
+          <a href="https://www.facebook.com/joansung.compass">
+            <AiFillFacebook size={30} />
+          </a>
+        </div>
         <div className="footer-text">
           <span className="footer-text--disclaimer">
             Joan Sung is a real estate agent licensed by the state of California

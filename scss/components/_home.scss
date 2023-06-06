@@ -1,6 +1,7 @@
 @use '../tools/mixins';
 @use '../design-tokens/assets';
 @use '../design-tokens/colors';
+@use '../design-tokens/breakpoints';
 
 .home-background {
     @include mixins.apply-background(assets.$house-image);
@@ -48,4 +49,8 @@
 
 .home-location--header {
     padding: 15px;
+}
+
+.home-testimonials--carousel {
+    height: auto;
 }

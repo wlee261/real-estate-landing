@@ -1,14 +1,18 @@
 @import 'global';
 
 @import "design-tokens/colors",
-        "design-tokens/assets";
+        "design-tokens/assets",
+        "design-tokens/breakpoints";
 @import "components/footer",
         "components/home",
         "components/descriptionCard",
         "components/textCarousel",
         "components/locationCard",
         "components/locations",
-        "components/connectButton";
+        "components/connectButton",
+        "components/contactForm",
+        "components/locationPage",
+        "components/aboutPage";
 
 * {
     font-family: var(--montserrat-font), sans-serif !important;

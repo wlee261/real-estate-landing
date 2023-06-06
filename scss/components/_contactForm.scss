@@ -1,0 +1,17 @@
+@use '../tools/mixins';
+
+
+.contact-form--container {
+    @include mixins.flex-column-centered();
+    position: relative;
+}
+
+.contact-form--close-button {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.contact-form--header {
+    margin: 40px 0px 15px 0px;
+}

@@ -7,12 +7,12 @@ import LocationCard from "./LocationCard";
 const Locations = () => {
   return (
     <div className="locations-container">
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
-      <LocationCard className="location" image={saratoga} label="SARATOGA" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
+      <LocationCard className="location" image={saratoga} location="saratoga" />
     </div>
   );
 };

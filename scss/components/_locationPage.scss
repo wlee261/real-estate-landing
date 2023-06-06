@@ -1,0 +1,26 @@
+@use '../tools/mixins';
+@use '../design-tokens/breakpoints';
+
+.location--background-image-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    @include mixins.flex-column-centered();
+}
+
+.location--background-image {
+    object-fit: cover;
+    z-index: -1;
+}
+
+.location--location-description {
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.location--location-name {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}

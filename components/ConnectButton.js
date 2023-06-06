@@ -1,9 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Backdrop from "@mui/material/Backdrop";
+import ContactForm from "./ContactForm";
 
 const ConnectButton = () => {
   const [showContact, setShowContact] = useState(false);
+
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      if (event.keyCode === 27) {
+        setShowContact(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
 
   const handleOpen = () => {
     setShowContact(true);
@@ -18,7 +33,11 @@ const ConnectButton = () => {
       <button className="connect-button" onClick={handleOpen}>
         Let's Connect
       </button>
-      <Backdrop open={showContact} onClick={handleClose} />
+      <Backdrop open={showContact}>
+        <div className="contact-form">
+          <ContactForm closeBackdrop={handleClose} />
+        </div>
+      </Backdrop>
     </div>
   );
 };
