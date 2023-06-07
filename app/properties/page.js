@@ -7,7 +7,6 @@ import Image from "next/image";
 import PropertyCard from "@/components/PropertyCard";
 
 import soldProperties from "@/data/soldProperties.json";
-import houseImg from "../../assets/house-exterior.jpg";
 import sceneryBridge from "@/assets/scenery-bridge.jpg";
 
 const Properties = () => {
@@ -15,7 +14,7 @@ const Properties = () => {
     <div className="properties-page--container">
       <div className="properties--background-image-container">
         <Image
-          src={sceneryBridge}
+          src="/house-exterior.jpg"
           fill={true}
           className="properties--background-image"
         />
@@ -35,7 +34,7 @@ const Properties = () => {
               bedNum={soldProperty.numBeds}
               bathNum={soldProperty.numBaths}
               sqft={soldProperty.sqft}
-              image={houseImg}
+              image="/house-exterior.jpg"
             />
           );
         })}

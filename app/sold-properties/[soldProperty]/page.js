@@ -1,5 +1,9 @@
 import React from "react";
 
+import Image from "next/image";
+
+import DescriptionCard from "@/components/DescriptionCard";
+
 import soldProperties from "@/data/soldProperties.json";
 
 export default function Page({ params }) {
@@ -7,8 +11,20 @@ export default function Page({ params }) {
     return soldProperty.key === params.soldProperty;
   });
   return (
-    <div>
-      <span>{soldPropertyInfo.description}</span>
+    <div className="sold-property-page">
+      <div className="sold-property--background-image-container">
+        <Image
+          src={soldPropertyInfo.propertyImage}
+          fill={true}
+          className="sold-property--background-image"
+        />
+      </div>
+      <DescriptionCard
+        title={soldPropertyInfo.address}
+        subtitle={`$${soldPropertyInfo.price} | ${soldPropertyInfo.fullAddress}`}
+        paragraphs={[soldPropertyInfo.description]}
+        image={soldPropertyInfo.propertyImage}
+      />
     </div>
   );
 }

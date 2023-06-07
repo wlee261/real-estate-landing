@@ -1,0 +1,13 @@
+@use '../tools/mixins';
+
+.sold-property-page {
+    @include mixins.flex-column-centered();
+}
+
+.sold-property--background-image-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    @include mixins.flex-column-centered();
+}

@@ -4,11 +4,12 @@ import React from "react";
 
 import Image from "next/image";
 
-const DescriptionCard = ({ title, paragraphs, image }) => {
+const DescriptionCard = ({ title, subtitle, paragraphs, image }) => {
   return (
     <div className="description-card--container">
       <div className="description-card--text">
         <h1>{title}</h1>
+        {subtitle && <h4>{subtitle}</h4>}
         {paragraphs.map((paragraph, index) => {
           return (
             <span key={index} className="description-card--paragraph">
