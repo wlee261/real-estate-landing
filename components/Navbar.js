@@ -28,9 +28,10 @@ const Navbar = () => {
             >
               <MenuIcon />
             </IconButton>
-            <NavbarLink label="About" path="/about" />
             <NavbarLink label="Home" path="/" />
+            <NavbarLink label="About" path="/about" />
             <NavbarLink label="Properties" path="/properties" />
+            <NavbarLink label="Home Valuation" path="/valuation" />
           </Toolbar>
         </AppBar>
       </ChangeColorOnScroll>
