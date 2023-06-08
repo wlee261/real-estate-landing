@@ -5,6 +5,7 @@
     position: relative;
     height: 50vh;
     width: 100vw;
+    max-width: 100%;
     overflow: hidden;
     @include mixins.flex-column-centered();
 }

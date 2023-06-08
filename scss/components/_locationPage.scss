@@ -4,6 +4,7 @@
 .location--background-image-container {
     height: 100vh;
     width: 100vw;
+    max-width: 100%;
     overflow: hidden;
     @include mixins.flex-column-centered();
 }

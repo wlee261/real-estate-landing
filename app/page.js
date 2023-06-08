@@ -7,10 +7,18 @@ import Locations from "@/components/Locations";
 
 import { aboutParagraphs, testimonials, reviewers } from "@/data/paragraphs";
 
+import Image from "next/image";
+
 const HomePage = () => {
   return (
     <div className="home-container">
-      <div className="home-background">
+      <div className="home--background-image-container">
+        <Image
+          className="home--background-image"
+          src={"/house-interior.jpg"}
+          alt="home page image"
+          fill
+        />
         <span className="home-background--name">Joan Sung</span>
         <span className="home-background--license">CA DRE #12312312</span>
         <span className="home-background--area">Bay Area</span>

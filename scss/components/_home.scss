@@ -3,11 +3,19 @@
 @use '../design-tokens/colors';
 @use '../design-tokens/breakpoints';
 
-.home-background {
-    @include mixins.apply-background(assets.$house-image);
+.home--background-image-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
     @include mixins.flex-column-centered();
 }
 
+.home--background-image {
+    object-fit: cover;
+    z-index: -1;
+}
 .home-background--name {
     font-size: 45px;
     color: white;
