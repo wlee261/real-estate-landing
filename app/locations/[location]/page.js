@@ -1,9 +1,4 @@
-"use client";
-
 import Image from "next/image";
-import saratogaImg from "../../../assets/saratoga.jpg";
-
-import { Container, Divider } from "@mui/material";
 
 import locations from "@/data/locations.json";
 
@@ -12,7 +7,7 @@ export default function Page({ params }) {
     (location) => location.key === params.location
   );
   return (
-    <div>
+    <div className="location--page-container">
       <div className="location--background-image-container">
         <Image
           src={location.image}
@@ -28,7 +23,7 @@ export default function Page({ params }) {
           </span>
         </div>
       </div>
-      <Container className="location--brochure-container">
+      <div className="location--brochure-container">
         <span className="location--brochure-header">
           WELCOME TO {location.location.toUpperCase()}
         </span>
@@ -77,7 +72,7 @@ export default function Page({ params }) {
             );
           })}
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

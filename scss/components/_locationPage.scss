@@ -1,6 +1,10 @@
 @use '../tools/mixins';
 @use '../design-tokens/breakpoints';
 
+.location--page-container {
+    @include mixins.flex-column-centered();
+}
+
 .location--background-image-container {
     height: 100vh;
     width: 100vw;
@@ -17,6 +21,7 @@
 
 .location--brochure-container {
     @include mixins.flex-column-centered();
+    width: 80%;
 }
 
 .location--background-image {
