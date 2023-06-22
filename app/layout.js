@@ -31,6 +31,9 @@ const workSans = Work_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${montserrat.variable}`}>
+      <head>
+        <title>Joan Sung Real Estate</title>
+      </head>
       <body>
         <Navbar />
         {children}
