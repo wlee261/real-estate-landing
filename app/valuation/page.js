@@ -1,3 +1,6 @@
+"use client";
+
+import ValuationForm from "@/components/ValuationForm";
 import Image from "next/image";
 import React from "react";
 
@@ -11,8 +14,8 @@ const page = () => {
           fill
           alt="house background image"
         />
+        <ValuationForm />
       </div>
-      Find out what your home is really worth
     </div>
   );
 };
