@@ -15,6 +15,10 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.location--brochure-container {
+    @include mixins.flex-column-centered();
+}
+
 .location--background-image {
     object-fit: cover;
     z-index: -1;
@@ -30,4 +34,52 @@
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+
+.divider {
+    border: 1px solid gray;
+    height: 1px;
+    width: 80%;
+}
+
+.location--brochure-header {
+    font-size: 40px;
+    margin: 30px;
+}
+
+.location--brochure-city-attributes {
+    display: flex;
+}
+
+.location--brochure-attribute-container {
+    @include mixins.flex-column-centered();
+    padding: 15px;
+    margin: 30px;
+}
+
+.location--brochure-subheader {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.location--brochure-activity-container {
+    @include mixins.flex-column-centered();
+}
+
+.location--brochure-activity-title {
+    font-weight: 500;
+    margin: 25px 0 10px 0;
+}
+
+.location--brochure-activity-description-container {
+    @include mixins.flex-column-centered();
+}
+
+.location--brochure-activity-description-piece {
+    padding: 3px;
+}
+
+.location--brochure-description {
+    text-align: center;
+    margin-bottom: 50px;
 }

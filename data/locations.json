@@ -3,36 +3,57 @@
         "key": "saratoga",
         "location": "saratoga",
         "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils",
-        "image": "/saratoga.jpg"
+        "image": "/saratoga.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     },
     {
         "key":"palo-alto",
         "location": "palo alto",
         "titleDescription": "Innovative hub of technology and academia, home to Stanford",
-        "image": "/palo-alto.jpg"
+        "image": "/palo-alto.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     },
     {
         "key":"los-altos",
         "location": "los altos",
         "titleDescription": "Tree lined streets and a small village atmosphere",
-        "image": "/los-altos.jpg"
+        "image": "/los-altos.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     },
     {
         "key":"los-gatos",
         "location": "los gatos",
         "titleDescription": "Historic city filled with greenbelt areas and a vibrant downtown",
-        "image": "/los-gatos.jpg"
+        "image": "/los-gatos.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     },
     {
         "key":"sunnyvale",
         "location": "sunnyvale",
         "titleDescription": "Metropolitan amenities with abundant natural beauty",
-        "image": "/sunnyvale.jpg"
+        "image": "/sunnyvale.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     },
     {
         "key":"cupertino",
         "location": "cupertino",
         "titleDescription": "Center of innovation in Silicon Valley with excellent schools",
-        "image": "/cupertino.jpg"
+        "image": "/cupertino.jpg",
+        "description": "Cool down under the plentiful shade of city name and grab yourself a drink from one of the many drink places. You'll find yourself with your hands full as you discover more of the restaraunts, musuems and other centers of activity. Nestled in the foothills of the mountains while still a short drive from many great places, this city will satisfy both the home bodies and the adventure seekers.",
+        "attributes": [{"top": "#1", "bottom": "Happiest City to Work"},{"top": "12", "bottom": "Michelin Rated Restaraunts"},{"top": "56000", "bottom": "Sqft of Park Space"}],
+        "activities": [{"title": "Favorite Eats", "info":["Restaraunt 1: Restaraunt 1 description","Restaraunt 2: Restaraunt 2 description","Restaraunt 3: Restaraunt 3 description"]},{"title": "Favorite Activities", "info":["Activity 1: Activity 1 Description","Activity 2: Activity 2 Description","Activity 3: Activity 3 Description"]},{"title": "Favorite Spots", "info":["Park 1: Park 1 Description", "Theme Park 2: Theme Park 2 Description", "Galleria 3: Galleria 3 Description"]}]
     }
 ]
+
+
+

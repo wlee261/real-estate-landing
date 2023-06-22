@@ -44,7 +44,6 @@ const ChangeColorOnScroll = ({ children }) => {
   return cloneElement(children, {
     style: {
       backgroundColor: trigger ? "black" : "transparent",
-      color: "white",
       transition: "0.3s",
     },
   });
@@ -59,7 +58,7 @@ const NavbarLink = ({ label, path }) => {
         href={path}
         sx={{
           display: "flex",
-          color: "white",
+          color: "inherit",
           textDecoration: "none",
           fontWeight: "inherit",
           fontSize: 16,
