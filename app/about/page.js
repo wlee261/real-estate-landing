@@ -30,7 +30,9 @@ const About = () => {
         />
       </div>
       <div className="home-testimonials">
-        <h1 className="home-testimonials--header">What Joan's Clients Say</h1>
+        <h1 className="home-testimonials--header">
+          What Joan&apos;s Clients Say
+        </h1>
       </div>
       <div className="home-testimonials--carousel">
         <TextCarousel labels={reviewers} paragraphs={testimonials} />
