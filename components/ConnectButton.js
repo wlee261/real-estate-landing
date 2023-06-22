@@ -31,7 +31,7 @@ const ConnectButton = () => {
   return (
     <div>
       <button className="connect-button" onClick={handleOpen}>
-        Let's Connect
+        Let&apos;s Connect
       </button>
       <Backdrop open={showContact}>
         <div className="contact-form">
