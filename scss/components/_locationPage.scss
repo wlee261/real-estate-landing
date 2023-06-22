@@ -9,6 +9,12 @@
     @include mixins.flex-column-centered();
 }
 
+.location--text-container {
+    @include mixins.flex-column-centered();
+    padding: 30px 50px 30px 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .location--background-image {
     object-fit: cover;
     z-index: -1;

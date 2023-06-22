@@ -2,16 +2,37 @@
     {
         "key": "saratoga",
         "location": "saratoga",
-        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils",
+        "image": "/saratoga.jpg"
     },
     {
         "key":"palo-alto",
         "location": "palo alto",
-        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+        "titleDescription": "Innovative hub of technology and academia, home to Stanford",
+        "image": "/palo-alto.jpg"
     },
     {
         "key":"los-altos",
         "location": "los altos",
-        "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothils"
+        "titleDescription": "Tree lined streets and a small village atmosphere",
+        "image": "/los-altos.jpg"
+    },
+    {
+        "key":"los-gatos",
+        "location": "los gatos",
+        "titleDescription": "Historic city filled with greenbelt areas and a vibrant downtown",
+        "image": "/los-gatos.jpg"
+    },
+    {
+        "key":"sunnyvale",
+        "location": "sunnyvale",
+        "titleDescription": "Metropolitan amenities with abundant natural beauty",
+        "image": "/sunnyvale.jpg"
+    },
+    {
+        "key":"cupertino",
+        "location": "cupertino",
+        "titleDescription": "Center of innovation in Silicon Valley with excellent schools",
+        "image": "/cupertino.jpg"
     }
 ]

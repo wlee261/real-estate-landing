@@ -11,16 +11,18 @@ export default function Page({ params }) {
     <div>
       <div className="location--background-image-container">
         <Image
-          src={saratogaImg}
+          src={location.image}
           fill={true}
           className="location--background-image"
         />
-        <span className="location--location-name">
-          {location.location.toUpperCase()}
-        </span>
-        <span className="location--location-description">
-          {location.titleDescription}
-        </span>
+        <div className="location--text-container">
+          <span className="location--location-name">
+            {location.location.toUpperCase()}
+          </span>
+          <span className="location--location-description">
+            {location.titleDescription}
+          </span>
+        </div>
       </div>
       <p>Location: {params.location}</p>
     </div>
