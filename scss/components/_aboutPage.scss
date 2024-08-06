@@ -1,20 +1,27 @@
 @use '../tools/mixins';
 
 .about--background-image-container {
-    position: relative;
-    height: 50vh;
-    width: 100vw;
-    overflow: hidden;
-    @include mixins.flex-column-centered();
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  @include mixins.flex-column-centered();
+}
+
+.about--text-container {
+  @include mixins.flex-column-centered();
+  padding: 30px 50px 30px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .about--background-image {
-    object-fit: cover;
-    z-index: -1;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .about--header {
-    color: white;
-    font-size: 55px;
-    font-weight: 600;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
 }

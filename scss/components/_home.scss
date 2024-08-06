@@ -4,64 +4,64 @@
 @use '../design-tokens/breakpoints';
 
 .home--background-image-container {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-    overflow: hidden;
-    @include mixins.flex-column-centered();
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  @include mixins.flex-column-centered();
 }
 
 .home--background-image {
-    object-fit: cover;
-    z-index: -1;
+  object-fit: cover;
+  z-index: -1;
 }
 .home-background--name {
-    font-size: 45px;
-    color: white;
-    font-weight: 600;
+  font-size: 45px;
+  color: black;
+  font-weight: 600;
 }
 
 .home-background--license {
-    font-size: 20px;
-    color: white;
-    margin: 16px 0 16px 0;
+  font-size: 20px;
+  color: black;
+  margin: 16px 0 16px 0;
 }
 
 .home-background--area {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: black;
 }
 
 .home-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-testimonials {
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-testimonials--header {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 .home-locations {
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-location--header {
-    padding: 15px;
+  padding: 15px;
 }
 
 .home-testimonials--carousel {
-    height: auto;
+  height: auto;
 }

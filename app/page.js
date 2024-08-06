@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import DescriptionCard from "../components/DescriptionCard";
-import profile from "../assets/profile.jpg";
-import TextCarousel from "@/components/TextCarousel";
-import Locations from "@/components/Locations";
+import DescriptionCard from '../components/DescriptionCard';
+import profile from '../assets/profile.jpg';
+import TextCarousel from '@/components/TextCarousel';
+import Locations from '@/components/Locations';
 
-import { aboutParagraphs, testimonials, reviewers } from "@/data/paragraphs";
+import { aboutParagraphs, testimonials, reviewers } from '@/data/paragraphs';
 
-import Image from "next/image";
+import Image from 'next/image';
 
 const HomePage = () => {
   return (
@@ -15,12 +15,12 @@ const HomePage = () => {
       <div className="home--background-image-container">
         <Image
           className="home--background-image"
-          src={"/house-interior.jpg"}
+          src={'/house-interior.jpg'}
           alt="home page image"
           fill
         />
         <span className="home-background--name">Joan Sung</span>
-        <span className="home-background--license">CA DRE #12312312</span>
+        <span className="home-background--license">CA DRE #01935150</span>
         <span className="home-background--area">Bay Area</span>
       </div>
       <div className="home-about">

@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import Image from "next/image";
+import Image from 'next/image';
 
-import DescriptionCard from "@/components/DescriptionCard";
+import DescriptionCard from '@/components/DescriptionCard';
 
-import soldProperties from "@/data/soldProperties.json";
+import soldProperties from '@/data/soldProperties.json';
 
 export default function Page({ params }) {
   const soldPropertyInfo = soldProperties.find((soldProperty) => {
@@ -14,7 +14,7 @@ export default function Page({ params }) {
     <div className="sold-property-page">
       <div className="sold-property--background-image-container">
         <Image
-          src={soldPropertyInfo.propertyImage}
+          src={`/sold-properties${soldPropertyInfo.propertyImage}`}
           fill={true}
           className="sold-property--background-image"
         />
@@ -23,7 +23,7 @@ export default function Page({ params }) {
         title={soldPropertyInfo.address}
         subtitle={`$${soldPropertyInfo.price} | ${soldPropertyInfo.fullAddress}`}
         paragraphs={[soldPropertyInfo.description]}
-        image={soldPropertyInfo.propertyImage}
+        image={`/sold-properties${soldPropertyInfo.propertyImage}`}
       />
     </div>
   );

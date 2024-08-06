@@ -1,22 +1,27 @@
-"use client";
+'use client';
 
-import React, { cloneElement } from "react";
+import { usePathname } from 'next/navigation';
 
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import React, { cloneElement } from 'react';
 
-import useScrollTrigger from "@mui/material/useScrollTrigger";
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
 
-import Link from "next/link";
+import useScrollTrigger from '@mui/material/useScrollTrigger';
+
+import Link from 'next/link';
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isHomeOrValuation = pathname === '/' || pathname === '/valuation';
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <ChangeColorOnScroll>
+      <ChangeColorOnScroll isHomeOrValuation={isHomeOrValuation}>
         <AppBar position="fixed" elevation={0}>
           <Toolbar>
             <IconButton
@@ -24,7 +29,7 @@ const Navbar = () => {
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{ mr: 2, display: { md: "none" } }}
+              sx={{ mr: 2, display: { md: 'none' } }}
             >
               <MenuIcon />
             </IconButton>
@@ -39,31 +44,31 @@ const Navbar = () => {
   );
 };
 
-const ChangeColorOnScroll = ({ children }) => {
+const ChangeColorOnScroll = ({ children, isHomeOrValuation }) => {
   const trigger = useScrollTrigger();
   return cloneElement(children, {
     style: {
-      backgroundColor: trigger ? "black" : "transparent",
-      transition: "0.3s",
+      backgroundColor: trigger ? 'black' : 'rgba(0, 0, 0, 0.3)',
+      transition: '0.3s',
     },
   });
 };
 
 const NavbarLink = ({ label, path }) => {
   return (
-    <Box sx={{ display: { xs: "none", md: "flex" }, mr: 2 }}>
+    <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 2 }}>
       <Typography
         variant="h6"
         component={Link}
         href={path}
         sx={{
-          display: "flex",
-          color: "inherit",
-          textDecoration: "none",
-          fontWeight: "inherit",
+          display: 'flex',
+          color: 'inherit',
+          textDecoration: 'none',
+          fontWeight: 'inherit',
           fontSize: 16,
-          "&:hover": {
-            color: "white",
+          '&:hover': {
+            color: 'white',
           },
         }}
       >

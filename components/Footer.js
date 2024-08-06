@@ -1,22 +1,22 @@
-"use client";
+'use client';
 
-import React from "react";
-import ConnectButton from "./ConnectButton";
-import "../scss/components/_footer.scss";
+import React from 'react';
+import ConnectButton from './ConnectButton';
+import '../scss/components/_footer.scss';
 
 import {
   AiFillLinkedin,
   AiFillInstagram,
   AiFillFacebook,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-top--section">
         <ConnectButton />
-        <span className="footer-text--contact">(408) 111-1111</span>
-        <span className="footer-text--contact">email@compass.com</span>
+        <span className="footer-text--contact">408-621-2733</span>
+        <span className="footer-text--contact">joan.sung@compass.com</span>
         <div className="footer-text--socials">
           <a href="https://www.linkedin.com/in/joansung">
             <AiFillLinkedin size={30} />
@@ -47,9 +47,9 @@ const Footer = () => {
       </div>
       <div className="footer-bottom--section">
         <div className="footer-text">
-          <span className="footer-text--chunk">Copyright 2023</span>
+          <span className="footer-text--chunk">Copyright 2024</span>
           <span className="footer-text--chunk">
-            Joan Sung, COMPASS, DRE 12312312
+            Joan Sung, COMPASS, DRE 01935150
           </span>
         </div>
       </div>

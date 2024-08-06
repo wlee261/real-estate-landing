@@ -1,26 +1,27 @@
-"use client";
+'use client';
 
-import DescriptionCard from "@/components/DescriptionCard";
-import TextCarousel from "@/components/TextCarousel";
+import DescriptionCard from '@/components/DescriptionCard';
+import TextCarousel from '@/components/TextCarousel';
 
-import profile from "../../assets/profile.jpg";
-import sceneryBridge from "../../assets/scenery-bridge.jpg";
+import profile from '../../assets/profile.jpg';
 
-import { aboutParagraphs, testimonials, reviewers } from "@/data/paragraphs";
+import { aboutParagraphs, testimonials, reviewers } from '@/data/paragraphs';
 
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
   return (
     <div>
       <div className="about--background-image-container">
         <Image
-          src={sceneryBridge}
+          src={'/background/about.jpg'}
           fill={true}
           className="about--background-image"
         />
-        <span className="about--header">Meet Joan</span>
+        <div className="about--text-container">
+          <span className="about--header">Meet Joan</span>
+        </div>
       </div>
       <div className="home-about">
         <DescriptionCard

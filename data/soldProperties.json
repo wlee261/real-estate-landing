@@ -1,56 +1,68 @@
 [
-    {
-        "key":"123-mauvile-ave",
-        "address": "123 Mauvile Ave",
-        "price":"4,500,000",
-        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500",
-        "propertyImage": "/house-exterior.jpg",
-        "description":"Welcome to this exquisite 3-bedroom, 3.5-bathroom property, offering a remarkable living experience with its spacious design and luxurious amenities. With a generous size of 3500 square feet, this residence provides an abundance of space for comfortable living and entertaining. Step into the grand foyer and be captivated by the elegant architecture and tasteful finishes throughout. The open-concept layout seamlessly integrates the living, dining, and kitchen areas, creating a perfect environment for hosting gatherings. Retreat to the master suite, featuring a lavish en-suite bathroom and a private oasis to unwind. Each additional bedroom is thoughtfully designed and boasts its own en-suite bath for ultimate convenience and privacy. Indulge in the expansive backyard, ideal for outdoor relaxation or creating your dream outdoor oasis. With its impressive size, luxurious features, and impeccable attention to detail, this property offers the epitome of upscale living."
-    },
-    {
-        "key": "1234-madison-ave",
-        "address": "1234 Madison Ave",
-        "price":"4,500,000",
-        "fullAddress": "1234 Madison Ave, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500",
-        "propertyImage": "/house-exterior.jpg",
-        "description":"Welcome to this exquisite 3-bedroom, 3.5-bathroom property, offering a remarkable living experience with its spacious design and luxurious amenities. With a generous size of 3500 square feet, this residence provides an abundance of space for comfortable living and entertaining. Step into the grand foyer and be captivated by the elegant architecture and tasteful finishes throughout. The open-concept layout seamlessly integrates the living, dining, and kitchen areas, creating a perfect environment for hosting gatherings. Retreat to the master suite, featuring a lavish en-suite bathroom and a private oasis to unwind. Each additional bedroom is thoughtfully designed and boasts its own en-suite bath for ultimate convenience and privacy. Indulge in the expansive backyard, ideal for outdoor relaxation or creating your dream outdoor oasis. With its impressive size, luxurious features, and impeccable attention to detail, this property offers the epitome of upscale living."
-    },
-    {
-        "address": "123 Mauvile Ave",
-        "price":"4,500,000",
-        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500"
-    },
-    {
-        "address": "123 Mauvile Ave",
-        "price":"4,500,000",
-        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500"
-    },
-    {
-        "address": "123 Mauvile Ave",
-        "price":"4,500,000",
-        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500"
-    },
-    {
-        "address": "123 Mauvile Ave",
-        "price":"4,500,000",
-        "fullAddress": "123 Mauvile Avenue, Saratoga, CA 12345",
-        "numBeds": "3",
-        "numBaths":"3.5",
-        "sqft":"4500"
-    }
+  {
+    "key": "11646-cedar-spring-court",
+    "address": "11646 Cedar Spring Court",
+    "price": "3,850,000",
+    "fullAddress": "11646 Cedar Spring Court, Cupertino, CA 95014",
+    "numBeds": "4",
+    "numBaths": "3",
+    "sqft": "2334",
+    "propertyImage": "/11646-cedar-spring-court.jpg",
+    "description": "Explore the enchanting community of Seven Springs with Award-Winning Monta Visita High, where this exquisite 4bd/3ba home is nestled. Enjoy the perks of two tennis courts, large swimming pools, and clubhouses for festive gatherings. The 2,334 Sqft home was renovated in 2016. It has a chef's dream kitchen with Bosch stainless steel appliances, Brazilian hardwood floors, and a stunning spacious living room with 16' high ceilings. The main floor includes a versatile bedroom with a full bathroom, perfect for guests or an office. Upstairs, the spacious primary suite offers vaulted ceilings, a huge walk-in closet, and a luxurious en suite bathroom. Conveniently located near major tech hubs and freeways. This home is in a sought-after neighborhood, perfect for entertaining, wonderful floor plan, and combines elegance with accessibility."
+  },
+  {
+    "key": "1888-farndon-avenue",
+    "address": "1888 Farndon Avenue",
+    "price": "3,458,000",
+    "fullAddress": "1888 Farndon Avenue, Los Altos, CA 94024",
+    "numBeds": "3",
+    "numBaths": "2.5",
+    "sqft": "1978",
+    "propertyImage": "/1888-farndon-avenue.jpg",
+    "description": "This beautifully maintained home has been owned and lovingly cared for by the same family for over 48 years. This large lot provides a serene and private retreat in Los Altos. Enter the foyer and move to the inviting living space with fireplace, separate dining room and inside laundry area, ensuring comfort and convenience for your family's needs. The well-appointed kitchen is equipped with modern amenities, perfect for culinary enthusiasts. The spacious and elegant master bedroom suite boasts a walk in closet and large master bathroom. The mature landscaping adds to the property's appeal, creating a tranquil ambiance. With close proximity to great schools, parks, shopping, dining and the Silicon Valley Tech Companies, this home is a prime choice for all home buyers alike. Don't miss the opportunity to own this prime property. Updated with new flooring, new hardware, new light fixtures, and freshly painted inside, the home is ready for new owners."
+  },
+  {
+    "key": "1111-alderbrook-lane",
+    "address": "1111 Alderbrook Lane",
+    "price": "3,328,000",
+    "fullAddress": "1111 Alderbrook Lane, San Jose, CA 95129",
+    "numBeds": "4",
+    "numBaths": "3",
+    "sqft": "2121",
+    "propertyImage": "/1111-alderbrook-lane.jpg",
+    "description": "Single-Story Home Beautifully Extended & Renovated in 2019 with Modern Touches; Nestled in Sought-After Lynbrook High Neighborhood; Bright & Airy; 4 Bed + Den, 3 Bath; 2,121+/-SF; Two Suites; Engineered Hardwood Floor & Recessed Light Throughout; Open Living Room & Formal Dining; Spacious Great Room Combined Kitchen & Family Room with Side Door & Glass Sliding Door Access to Backyard; Luxurious Stylish Kitchen with Premium Decora Cabinetry, Big Island, Breakfast Bar, Plenty of Cabinets, Thermador 6-Burner Gas Range, Hood, Quartz Countertop, Backsplash & Pantry; Primary Suite with Walk-in Closet, Multiple Windows, Stall Shower, Jetted Tub, Toto Toilet & Washlet; Central A/C; Solar Panel; Tankless Water Heater; Attached 2-Car Garage with Tesla EV Charger, Storage Cabinets, Laundry & Water Softener; Convenient Location Near Cupertino Main Street, Apple Campus, Parks, Library, Supermarkets & Shopping; Easy Access to Highway 85/280, Lawrence Expwy & Jobs; Outstanding Cupertino Union Schools: Dilworth Elementary, Miller Middle & Lynbrook High"
+  },
+  {
+    "key": "381-pismo-terrace",
+    "address": "381 Pismo Terrace",
+    "price": "2,458,000",
+    "fullAddress": "381 Pismo Terrace, Sunnyvale, CA 94086",
+    "numBeds": "3",
+    "numBaths": "2.5",
+    "sqft": "1354",
+    "propertyImage": "/381-pismo-terrace.jpg",
+    "description": "Lovely 2-Story Home Nestled in Sought-After Somerset Community in Sunnyvale; Built by SummerHill Homes; 3 Bed, 2.5 Bath; 1,354+/-SF; Bright, Light & Airy; Fresh Exterior & Interior Paint; Inviting Open Living Area with Soaring Ceilings, High Windows, Hardwood Flooring & Gas Fireplace; Formal Dining with New Chandelier & French Doors Access to Patio; Gorgeous Kitchen with Modern Cabinetry, Quartz Countertops, Island, Breakfast Bar, Gas Range, Hood & Stainless Steel Appliances; Flowing to Cozy Family Room with Glass Sliding Doors Lead to Backyard; All Three Bedrooms on 2nd Floor with New Carpet Flooring Throughout; Primary Suite with Vaulted Ceilings, Walk-in Closet, Bathroom with Dual Sink, Granite Countertop & Stall Shower; Central A/C; Double Pane Windows; Attached 2-Car Garage with Laundry; Entertaining Paved Backyard; Blocks Away from Park, Library & Civic Center; Convenient Location Near Shopping, Public or Private Schools & Downtown Sunnyvale Featuring Restaurants, Theater, Farmers Market & Supermarket; Easy Access to Highway 85/237, El Camino Real, Caltrain Station & Jobs; Excellent Schools: Cumberland Elementary, Sunnyvale Middle & Homestead High"
+  },
+  {
+    "key": "1105-starbird-circle",
+    "address": "1105 Starbird Circle",
+    "price": "1,660,000",
+    "fullAddress": "1105 Starbird Circle, San Jose, CA 95117",
+    "numBeds": "",
+    "numBaths": "",
+    "sqft": "2210",
+    "propertyImage": "/1105-starbird-circle.jpg",
+    "description": "This fantastic Duplex home is situated in the highly sought-after Central Silicon Valley, perfectly located between Santa Clara and Campbell. With over 2,200 SqFt of living space, this home boasts a stunning paver porch and courtyard. The 3-bed/2-bath unit has been recently renovated with exceptional attention to detail, featuring modern finishes that complement the kitchen. This Duplex not only offers comfort but also the convenience of urban living. The property is also a great high cash flow investment opportunity. Perfect for families who enjoy Starbird park amenities. This home is an ideal owner-occupied property in a prime location. FEATURE *Vaulted ceiling *Recessed lights *Engineered hardwood floor *Bamboo floors *Artificial Quartz Kitchen counter top, JennAir cook top, Microwave, Convection oven *Baths have Hi-Tech toilets *Washer/dryer inside *Tankless water heater *Copper pipes *Upgraded double paned windows/sliders *Corner location allows for plenty of parking."
+  },
+  {
+    "key": "1515-fairway-green-circle",
+    "address": "1515 Fairway Green Circle",
+    "price": "1,300,000",
+    "fullAddress": "1515 Fairway Green Circle, San Jose, CA 95131",
+    "numBeds": "2",
+    "numBaths": "2.5",
+    "sqft": "1558",
+    "propertyImage": "/1515-fairway-green-circle.jpg",
+    "description": "Welcome to this rarely available stunning Townhouse near Townsend park and the Golf Course! The inviting living room boasts soaring high ceilings and a cozy wood burning fireplace. The kitchen has been updated with granite countertops, mosaic tile backsplash,stainless steel appliances and features a charming breakfast nook. Upstairs, the expansive primary suite features a vaulted ceiling and a private balcony. The second suite is equally spacious and includes a private bath. Additional features include a side-by-side two-car garage, an in-unit laundry room, newly replaced washer dryer and dishwasher. Entertain friends and family in the spacious backyard, which has been upgraded with a sprinkler system and features plenty of fruit trees, including lemon, loquat, avocado, and more. The Complex amenities include a pool, Spa, gym and Clubhouse. Walking distance to Municipal Golf Course, Townsend Park, and tennis courts. Close to private schools like Challenger and Stratford. Easy access to Highway 680/101/880, H-mart/Ranch 99/Costco/Safeway/Sprouts and many high tech companies."
+  }
 ]

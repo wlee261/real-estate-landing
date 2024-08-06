@@ -2,41 +2,47 @@
 @use '../design-tokens/breakpoints';
 
 .properties--background-image-container {
-    position: relative;
-    height: 50vh;
-    width: 100vw;
-    max-width: 100%;
-    overflow: hidden;
-    @include mixins.flex-column-centered();
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  @include mixins.flex-column-centered();
+}
+
+.properties--text-container {
+  @include mixins.flex-column-centered();
+  padding: 30px 50px 30px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .properties--background-image {
-    object-fit: cover;
-    z-index: -1;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .properties--header {
-    color: white;
-    font-size: 55px;
-    font-weight: 600;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
 }
 
 .properties-page--container {
-    @include mixins.flex-column-centered();
+  @include mixins.flex-column-centered();
 }
 
 .sold-properties--cards-container {
-    margin-top: 50px;
-    display: grid;
-    @media (max-width: breakpoints.$md) {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    grid-template-columns: repeat(2, 1fr);
-    width: 90%;
+  margin-top: 50px;
+  display: grid;
+  @media (max-width: breakpoints.$md) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
 }
 
 .properties--subheader {
-    margin-top: 20px;
-    color: white;
-    font-size: 19px;
+  margin-top: 20px;
+  color: white;
+  font-size: 19px;
 }
