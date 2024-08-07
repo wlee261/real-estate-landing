@@ -4,7 +4,11 @@ import emailjs from '@emailjs/browser';
 import { TextField, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
-const ContactForm = ({ closeBackdrop, setSnackbarMessage }) => {
+const ContactForm = ({
+  closeBackdrop,
+  setSnackbarMessage,
+  setIsSnackbarOpen,
+}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,6 +34,7 @@ const ContactForm = ({ closeBackdrop, setSnackbarMessage }) => {
         }
       );
     form.current.reset();
+    setIsSnackbarOpen(true);
     closeBackdrop();
   };
 

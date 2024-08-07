@@ -39,7 +39,6 @@ const ConnectButton = () => {
 
   const handleClose = () => {
     setShowContact(false);
-    setIsSnackbarOpen(true);
   };
 
   return (
@@ -52,6 +51,7 @@ const ConnectButton = () => {
           <ContactForm
             closeBackdrop={handleClose}
             setSnackbarMessage={setSnackbarMessage}
+            setIsSnackbarOpen={setIsSnackbarOpen}
           />
         </div>
       </Backdrop>
