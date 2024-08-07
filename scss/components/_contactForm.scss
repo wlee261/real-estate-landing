@@ -1,17 +1,29 @@
 @use '../tools/mixins';
 
-
 .contact-form--container {
-    @include mixins.flex-column-centered();
-    position: relative;
+  @include mixins.flex-column-centered();
+  position: relative;
 }
 
 .contact-form--close-button {
-    position: absolute;
-    right: 5%;
-    top: 5%;
+  position: absolute;
+  right: 5%;
+  top: 5%;
 }
 
 .contact-form--header {
-    margin: 40px 0px 15px 0px;
+  margin: 40px 0px 45px 0px;
+}
+
+.contact-button {
+  background-color: black;
+  color: white;
+  height: 45px;
+  width: 200px;
+  margin: 15px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
