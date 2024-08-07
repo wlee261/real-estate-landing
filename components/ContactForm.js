@@ -11,9 +11,14 @@ const ContactForm = ({ closeBackdrop, setSnackbarMessage }) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_b0uyif7', 'template_bjmp9ma', form.current, {
-        publicKey: 'rCa6tU-rd_l0HsrQ0',
-      })
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_KEY,
+        process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_KEY,
+        form.current,
+        {
+          publicKey: process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           setSnackbarMessage('Your message has been successfully sent!');

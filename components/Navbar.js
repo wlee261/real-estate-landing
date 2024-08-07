@@ -1,7 +1,10 @@
 'use client';
 
-import React, { cloneElement } from 'react';
+import React, { cloneElement, useState } from 'react';
 
+import Link from 'next/link';
+
+import { MenuItem, Menu } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,9 +14,16 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 
-import Link from 'next/link';
-
 const Navbar = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <ChangeColorOnScroll>
@@ -25,12 +35,32 @@ const Navbar = () => {
               color="inherit"
               aria-label="menu"
               sx={{ mr: 2, display: { md: 'none' } }}
+              onClick={handleClick}
             >
               <MenuIcon />
             </IconButton>
             <NavbarLink label="Home" path="/" />
             <NavbarLink label="About" path="/about" />
             <NavbarLink label="Properties" path="/properties" />
+            <Menu
+              id="mobile-nav"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                'aria-labelledby': 'mobile-nav-menu-button',
+              }}
+            >
+              <MenuItem onClick={handleClose}>
+                <Link href="/">Home</Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/about">About</Link>{' '}
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/properties">Properties</Link>{' '}
+              </MenuItem>
+            </Menu>
           </Toolbar>
         </AppBar>
       </ChangeColorOnScroll>
