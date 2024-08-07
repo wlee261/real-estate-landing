@@ -1,7 +1,5 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-
 import React, { cloneElement } from 'react';
 
 import AppBar from '@mui/material/AppBar';
@@ -16,12 +14,9 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Link from 'next/link';
 
 const Navbar = () => {
-  const pathname = usePathname();
-  const isHomeOrValuation = pathname === '/' || pathname === '/valuation';
-
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <ChangeColorOnScroll isHomeOrValuation={isHomeOrValuation}>
+      <ChangeColorOnScroll>
         <AppBar position="fixed" elevation={0}>
           <Toolbar>
             <IconButton
@@ -36,7 +31,6 @@ const Navbar = () => {
             <NavbarLink label="Home" path="/" />
             <NavbarLink label="About" path="/about" />
             <NavbarLink label="Properties" path="/properties" />
-            <NavbarLink label="Home Valuation" path="/valuation" />
           </Toolbar>
         </AppBar>
       </ChangeColorOnScroll>
@@ -44,7 +38,7 @@ const Navbar = () => {
   );
 };
 
-const ChangeColorOnScroll = ({ children, isHomeOrValuation }) => {
+const ChangeColorOnScroll = ({ children }) => {
   const trigger = useScrollTrigger();
   return cloneElement(children, {
     style: {
