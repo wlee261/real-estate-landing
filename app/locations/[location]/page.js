@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import locations from "@/data/locations.json";
+import locations from '@/data/locations.json';
 
 export default function Page({ params }) {
   const location = locations.find(
@@ -10,29 +10,29 @@ export default function Page({ params }) {
     <div className="location--page-container">
       <div className="location--background-image-container">
         <Image
-          src={location.image}
+          src={location?.image}
           fill={true}
           className="location--background-image"
         />
         <div className="location--text-container">
           <span className="location--location-name">
-            {location.location.toUpperCase()}
+            {location?.location.toUpperCase()}
           </span>
           <span className="location--location-description">
-            {location.titleDescription}
+            {location?.titleDescription}
           </span>
         </div>
       </div>
       <div className="location--brochure-container">
         <span className="location--brochure-header">
-          WELCOME TO {location.location.toUpperCase()}
+          WELCOME TO {location?.location.toUpperCase()}
         </span>
         <span className="location--brochure-description">
-          {location.description}
+          {location?.description}
         </span>
         <div className="divider" />
         <div className="location--brochure-city-attributes">
-          {location.attributes.map((attribute) => {
+          {location?.attributes.map((attribute) => {
             return (
               <div
                 key={attribute.bottom}
@@ -47,7 +47,7 @@ export default function Page({ params }) {
         <span className="location--brochure-subheader">THINGS TO DO</span>
         <div className="divider" />
         <div className="location--brochure-city-activities">
-          {location.activities.map((activity) => {
+          {location?.activities.map((activity) => {
             return (
               <div
                 key={activity.title}

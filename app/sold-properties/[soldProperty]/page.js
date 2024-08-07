@@ -14,16 +14,16 @@ export default function Page({ params }) {
     <div className="sold-property-page">
       <div className="sold-property--background-image-container">
         <Image
-          src={`/sold-properties${soldPropertyInfo.propertyImage}`}
+          src={`/sold-properties${soldPropertyInfo?.propertyImage}`}
           fill={true}
           className="sold-property--background-image"
         />
       </div>
       <DescriptionCard
-        title={soldPropertyInfo.address}
-        subtitle={`$${soldPropertyInfo.price} | ${soldPropertyInfo.fullAddress}`}
-        paragraphs={[soldPropertyInfo.description]}
-        image={`/sold-properties${soldPropertyInfo.propertyImage}`}
+        title={soldPropertyInfo?.address}
+        subtitle={`$${soldPropertyInfo?.price} | ${soldPropertyInfo?.fullAddress}`}
+        paragraphs={[soldPropertyInfo?.description]}
+        image={`/sold-properties${soldPropertyInfo?.propertyImage}`}
       />
     </div>
   );
