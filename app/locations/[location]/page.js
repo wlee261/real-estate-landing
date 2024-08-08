@@ -13,6 +13,7 @@ export default function Page({ params }) {
           src={location?.image}
           fill={true}
           className="location--background-image"
+          alt=""
         />
         <div className="location--text-container">
           <span className="location--location-name">

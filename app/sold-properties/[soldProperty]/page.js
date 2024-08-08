@@ -17,6 +17,7 @@ export default function Page({ params }) {
           src={`/sold-properties${soldPropertyInfo?.propertyImage}`}
           fill={true}
           className="sold-property--background-image"
+          alt=""
         />
       </div>
       <DescriptionCard

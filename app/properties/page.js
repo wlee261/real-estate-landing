@@ -17,6 +17,7 @@ const Properties = () => {
           src="/background/properties.jpg"
           fill={true}
           className="properties--background-image"
+          alt=""
         />
         <div className="properties--text-container">
           <span className="properties--header">Past Transactions</span>
