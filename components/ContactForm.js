@@ -42,12 +42,11 @@ const ContactForm = ({
     <div>
       <form ref={form} onSubmit={sendEmail} className="contact-form--container">
         <h2 className="contact-form--header">Get in contact with me!</h2>
-        <IconButton
-          onClick={closeBackdrop}
-          className="contact-form--close-button"
-        >
-          <CloseIcon />
-        </IconButton>
+        <div className="contact-form--close-button">
+          <IconButton onClick={closeBackdrop}>
+            <CloseIcon />
+          </IconButton>
+        </div>
         <TextField
           type="text"
           name="user_name"
