@@ -18,6 +18,7 @@ const About = () => {
           src={'/background/about.jpg'}
           fill={true}
           className="about--background-image"
+          alt=""
         />
         <div className="about--text-container">
           <span className="about--header">Meet Joan</span>

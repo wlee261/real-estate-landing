@@ -1,41 +1,38 @@
-import React from "react";
+import React from 'react';
 
-import saratoga from "../assets/saratoga.jpg";
-import cupertino from "../assets/cupertino.jpg";
-import paloAlto from "../assets/paloAlto.jpg";
-import losAltos from "../assets/los-altos.jpg";
-import losGatos from "../assets/los-gatos.jpg";
-import sunnyvale from "../assets/sunnyvale.jpg";
-
-import LocationCard from "./LocationCard";
+import LocationCard from './LocationCard';
 
 const Locations = () => {
   return (
     <div className="locations-container">
-      <LocationCard className="location" image={saratoga} location="saratoga" />
       <LocationCard
         className="location"
-        image={sunnyvale}
+        image={'/locations/saratoga-location.jpg'}
+        location="saratoga"
+      />
+      <LocationCard
+        className="location"
+        image={'/locations/sunnyvale-location.jpg'}
         location="sunnyvale"
       />
       <LocationCard
         className="location"
-        image={cupertino}
+        image={'/locations/cupertino-location.jpg'}
         location="cupertino"
       />
       <LocationCard
         className="location"
-        image={paloAlto}
+        image={'/locations/palo-alto-location.jpg'}
         location="palo alto"
       />
       <LocationCard
         className="location"
-        image={losAltos}
+        image={'/locations/los-altos-location.jpg'}
         location="los altos"
       />
       <LocationCard
         className="location"
-        image={losGatos}
+        image={'/locations/los-gatos-location.jpg'}
         location="los gatos"
       />
     </div>

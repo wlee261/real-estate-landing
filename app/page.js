@@ -15,7 +15,7 @@ const HomePage = () => {
       <div className="home--background-image-container">
         <Image
           className="home--background-image"
-          src={'/house-interior.jpg'}
+          src={'/background/home.jpg'}
           alt=""
           fill
         />
