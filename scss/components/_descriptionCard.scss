@@ -2,39 +2,41 @@
 @use '../tools/mixins';
 
 .description-card--container {
-    @media(max-width: breakpoints.$md){
-        @include mixins.flex-column-centered();
-    }
-    @media(min-width: breakpoints.$md){
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 1440px;
-    }
+  @media (max-width: breakpoints.$md) {
+    @include mixins.flex-column-centered();
+  }
+  @media (min-width: breakpoints.$md) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+  }
 }
 
 .description-card--text {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
 
 .description-card--title {
-    font-size: 35px;
-    padding: 12px;
+  font-size: 35px;
+  padding: 12px;
 }
 
 .description-card--paragraph {
-    font-size: 17px;
-    padding: 12px 25px 12px 12px;
+  font-size: 17px;
+  padding: 12px 25px 12px 12px;
 }
 
 .description-card--image {
-    @media(max-width: breakpoints.$md) {
-        width: auto;
-    }
-    position: relative;
-    height: 100%;
-    width: 50%;
-    padding: 40px;
+  @media (max-width: breakpoints.$md) {
+    width: auto;
+    padding: 0px;
+  }
+  position: relative;
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+  max-width: 100%;
 }

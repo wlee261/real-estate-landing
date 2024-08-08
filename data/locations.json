@@ -3,7 +3,7 @@
     "key": "saratoga",
     "location": "saratoga",
     "titleDescription": "Vibrant Silicon Valley community nestled in scenic foothills",
-    "image": "/saratoga.jpg",
+    "image": "/locations/saratoga-location.jpg",
     "description": "Saratoga is known for its lush landscapes and vibrant cultural scene. The city offers a variety of dining, shopping, and outdoor activities. Residents enjoy the beautiful parks and top-rated schools, making it a desirable place to live.",
     "attributes": [
       { "top": "#1", "bottom": "Best Suburb to Live in California" },
@@ -41,7 +41,7 @@
     "key": "palo-alto",
     "location": "palo alto",
     "titleDescription": "Innovative hub of technology and academia, home to Stanford",
-    "image": "/palo-alto.jpg",
+    "image": "/locations/palo-alto-location.jpg",
     "description": "Palo Alto is at the heart of Silicon Valley, renowned for its tech innovation and prestigious educational institutions. The city boasts a blend of historic charm and modern amenities, with ample green spaces and a vibrant downtown.",
     "attributes": [
       { "top": "#2", "bottom": "Best Places to Live in California" },
@@ -79,7 +79,7 @@
     "key": "los-altos",
     "location": "los altos",
     "titleDescription": "Tree-lined streets and a small village atmosphere",
-    "image": "/los-altos.jpg",
+    "image": "/locations/los-altos-location.jpg",
     "description": "Los Altos offers a serene suburban environment with a charming downtown area. The city is known for its excellent schools, beautiful parks, and a close-knit community vibe, making it perfect for families.",
     "attributes": [
       { "top": "#3", "bottom": "Safest Cities in California" },
@@ -117,7 +117,7 @@
     "key": "los-gatos",
     "location": "los gatos",
     "titleDescription": "Historic city filled with greenbelt areas and a vibrant downtown",
-    "image": "/los-gatos.jpg",
+    "image": "/locations/los-gatos-location.jpg",
     "description": "Los Gatos combines a historic charm with modern conveniences. The city is known for its picturesque downtown, excellent schools, and beautiful natural surroundings, offering a perfect blend of culture and outdoor activities.",
     "attributes": [
       { "top": "#4", "bottom": "Best Downtowns in Silicon Valley" },
@@ -155,7 +155,7 @@
     "key": "sunnyvale",
     "location": "sunnyvale",
     "titleDescription": "Metropolitan amenities with abundant natural beauty",
-    "image": "/sunnyvale.jpg",
+    "image": "/locations/sunnyvale-location.jpg",
     "description": "Sunnyvale is a bustling city with a blend of residential, commercial, and industrial areas. Known for its tech industry presence, the city also offers numerous parks, diverse dining options, and a thriving community.",
     "attributes": [
       { "top": "#5", "bottom": "Best Cities for Tech Workers" },
@@ -193,7 +193,7 @@
     "key": "cupertino",
     "location": "cupertino",
     "titleDescription": "Center of innovation in Silicon Valley with excellent schools",
-    "image": "/cupertino.jpg",
+    "image": "/locations/cupertino-location.jpg",
     "description": "Cupertino is home to major tech companies and offers a high quality of life with top-rated schools, diverse dining, and ample green spaces. The city blends a suburban feel with urban amenities, making it a popular choice for families and professionals.",
     "attributes": [
       { "top": "#6", "bottom": "Best Suburbs to Raise a Family" },

@@ -19,7 +19,7 @@ const DescriptionCard = ({ title, subtitle, paragraphs, image }) => {
         })}
       </div>
       <div className="description-card--image">
-        <Image src={image} alt="profile pic" width={400} height={400} />
+        <Image src={image} alt="profile pic" width={380} height={380} />
       </div>
     </div>
   );
