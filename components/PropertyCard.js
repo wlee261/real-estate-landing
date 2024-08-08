@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import makeUrlFriendly from "@/utils/makeUrlFriendly";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
+import makeUrlFriendly from '@/utils/makeUrlFriendly';
 
 const PropertyCard = ({
   address,
@@ -32,7 +34,12 @@ const PropertyCard = ({
         <span className="property-card--rooms-text">
           {bedNum} Beds | {bathNum} Baths | {sqft} Sq.Ft.
         </span>
-        <span className="property-card--more-details-text">More Details</span>
+        <Link
+          href={`/sold-properties/${makeUrlFriendly(address)}`}
+          className="property-card--more-details-text"
+        >
+          More Details
+        </Link>
       </div>
     </div>
   );

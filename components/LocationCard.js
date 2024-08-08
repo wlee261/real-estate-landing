@@ -1,7 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import makeUrlFriendly from "@/utils/makeUrlFriendly";
+import React from 'react';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+import makeUrlFriendly from '@/utils/makeUrlFriendly';
+import Link from 'next/link';
 
 const LocationCard = ({ image, location }) => {
   const router = useRouter();
@@ -14,7 +15,12 @@ const LocationCard = ({ image, location }) => {
       <Image src={image} fill alt="location" />
       <div className="location-card--overlay">
         <div className="location-card--overlay-border">
-          {location.toUpperCase()}
+          <Link
+            className="location-card--text"
+            href={`/locations/${makeUrlFriendly(location)}`}
+          >
+            {location.toUpperCase()}
+          </Link>
         </div>
       </div>
     </div>

@@ -1,44 +1,50 @@
 .location-card--container {
-    position: relative;
-    height: 100%;
-    width: 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .location-card--container:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.location-card--text {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .location-card--overlay {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
 
-    &:hover {
-        background-color: rgba(0, 0, 0, 0.7);
-        transition: background-color 0.5s ease;
-        .location-card--overlay-border {
-            height: 85%;
-            width: 85%;
-            transition: 0.5s;
-        }
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.5s ease;
+    .location-card--overlay-border {
+      height: 85%;
+      width: 85%;
+      transition: 0.5s;
     }
+  }
 }
 
 .location-card--overlay-border {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70%;
-    width: 70%;
-    font-weight: 700;
-    border: 1px solid white;
-    font-size: 20px;
-    color: white;
-    transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  font-weight: 700;
+  border: 1px solid white;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
 }
