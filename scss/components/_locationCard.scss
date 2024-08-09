@@ -14,6 +14,10 @@
   text-decoration: none;
 }
 
+.location-card--text:hover {
+  color: white;
+}
+
 .location-card--overlay {
   position: absolute;
   display: flex;
