@@ -33,6 +33,7 @@ const ContactForm = ({
           );
         }
       );
+
     form.current.reset();
     setIsSnackbarOpen(true);
     closeBackdrop();
@@ -55,9 +56,9 @@ const ContactForm = ({
           sx={{ mb: 3, width: '80%' }}
         />
         <TextField
-          type="email"
-          name="user_email"
-          label="Email"
+          type="text"
+          name="user_contact"
+          label="Contact Info"
           required
           sx={{ mb: 3, width: '80%' }}
         />
