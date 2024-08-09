@@ -12,25 +12,36 @@
   @include mixins.flex-column-centered();
 }
 
+.home--text-container {
+  @include mixins.flex-column-centered();
+  padding: 30px 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  @media (min-width: breakpoints.$md) {
+    padding: 30px 100px 30px 100px;
+    width: auto;
+  }
+}
+
 .home--background-image {
   object-fit: cover;
   z-index: -1;
 }
 .home-background--name {
   font-size: 45px;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
 .home-background--license {
   font-size: 20px;
-  color: black;
+  color: white;
   margin: 16px 0 16px 0;
 }
 
 .home-background--area {
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 .home-about {

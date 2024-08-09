@@ -19,9 +19,11 @@ const HomePage = () => {
           alt=""
           fill
         />
-        <span className="home-background--name">Joan Sung</span>
-        <span className="home-background--license">CA DRE #01935150</span>
-        <span className="home-background--area">Bay Area</span>
+        <div className="home--text-container">
+          <span className="home-background--name">Joan Sung</span>
+          <span className="home-background--license">CA DRE #01935150</span>
+          <span className="home-background--area">Bay Area</span>
+        </div>
       </div>
       <div className="home-about">
         <DescriptionCard
