@@ -8,7 +8,7 @@
     "numBaths": "3",
     "sqft": "2334",
     "propertyImage": "/11646-cedar-spring-court.jpg",
-    "description": "Explore the enchanting community of Seven Springs with Award-Winning Monta Visita High, where this exquisite 4bd/3ba home is nestled. Enjoy the perks of two tennis courts, large swimming pools, and clubhouses for festive gatherings. The 2,334 Sqft home was renovated in 2016. It has a chef's dream kitchen with Bosch stainless steel appliances, Brazilian hardwood floors, and a stunning spacious living room with 16' high ceilings. The main floor includes a versatile bedroom with a full bathroom, perfect for guests or an office. Upstairs, the spacious primary suite offers vaulted ceilings, a huge walk-in closet, and a luxurious en suite bathroom. Conveniently located near major tech hubs and freeways. This home is in a sought-after neighborhood, perfect for entertaining, wonderful floor plan, and combines elegance with accessibility."
+    "description": "Explore the enchanting community of Seven Springs with Award-Winning Monta Vista High, where this exquisite 4bd/3ba home is nestled. Enjoy the perks of two tennis courts, large swimming pools, and clubhouses for festive gatherings. The 2,334 Sqft home was renovated in 2016. It has a chef's dream kitchen with Bosch stainless steel appliances, Brazilian hardwood floors, and a stunning spacious living room with 16' high ceilings. The main floor includes a versatile bedroom with a full bathroom, perfect for guests or an office. Upstairs, the spacious primary suite offers vaulted ceilings, a huge walk-in closet, and a luxurious en suite bathroom. Conveniently located near major tech hubs and freeways. This home is in a sought-after neighborhood, perfect for entertaining, wonderful floor plan, and combines elegance with accessibility."
   },
   {
     "key": "1888-farndon-avenue",
@@ -64,5 +64,38 @@
     "sqft": "1558",
     "propertyImage": "/1515-fairway-green-circle.jpg",
     "description": "Welcome to this rarely available stunning Townhouse near Townsend park and the Golf Course! The inviting living room boasts soaring high ceilings and a cozy wood burning fireplace. The kitchen has been updated with granite countertops, mosaic tile backsplash,stainless steel appliances and features a charming breakfast nook. Upstairs, the expansive primary suite features a vaulted ceiling and a private balcony. The second suite is equally spacious and includes a private bath. Additional features include a side-by-side two-car garage, an in-unit laundry room, newly replaced washer dryer and dishwasher. Entertain friends and family in the spacious backyard, which has been upgraded with a sprinkler system and features plenty of fruit trees, including lemon, loquat, avocado, and more. The Complex amenities include a pool, Spa, gym and Clubhouse. Walking distance to Municipal Golf Course, Townsend Park, and tennis courts. Close to private schools like Challenger and Stratford. Easy access to Highway 680/101/880, H-mart/Ranch 99/Costco/Safeway/Sprouts and many high tech companies."
+  },
+  {
+    "key": "545-holthouse-terrace",
+    "address": "545 Holthouse Terrace",
+    "price": "1,250,000",
+    "fullAddress": "545 Holthouse Terrace, Sunnyvale, CA 94087",
+    "numBeds": "2",
+    "numBaths": "3",
+    "sqft": "1276",
+    "propertyImage": "/545-holthouse-terrace.jpg",
+    "description": "Location! Location! Location! This bright and roomy townhome is centrally located in the heart of Sunnyvale. Within 10 minute drive to Apple, Google and plenty of restaurants and grocery stores located on El Camino Real. This home offers gleaming hardwood floors, granite countertops, designer touches throughout, Central A/C & Heating along with recess lighting, stainless steel appliances & an oversized kitchen island for all of your culinary needs. Community offers BBQ/Picnic area & small park for some family fun."
+  },
+  {
+    "key": "493-daisydell-court",
+    "address": "493 Daisydell Court",
+    "price": "1,038,000",
+    "fullAddress": "493 Daisydell Court, San Jose, CA 95129",
+    "numBeds": "3",
+    "numBaths": "2",
+    "sqft": "1230",
+    "propertyImage": "/493-daisydell-court.jpg",
+    "description": "Charming West San Jose Townhouse in Top Cupertino School District. Discover this delightful two-story townhouse in the sought-after Cupertino School District with a San Jose address! This home features three bedrooms and an open layout perfect for comfortable living and entertaining. Step outside to your private patio, surrounded by beautiful palm trees, for peaceful outdoor time. Nestled in Strawberry Square, a PUD community, this home offers a clubhouse, two private tennis courts, a swimming pool, and five playgrounds. Living in a PUD community provides more freedom than a typical condo. The HOA covers the water bill, exterior maintenance, roof, and landscaping. Prime Location: Close to major tech companies, I-280, Strawberry Park, Mitsuwa Marketplace, Westgate Mall, Santana Row, and Valley Fair Adjacent to John Mise Park, a 12-acre park with courts, a softball field, and picnic spots In addition to top Cupertino public schools, walking distance to Challenger, Archbishop Mitty, and Harker private schools"
+  },
+  {
+    "key": "5501-de-marcus-boulevard-unit-519",
+    "address": "5501 De Marcus Boulevard, Unit 519",
+    "price": "799,000",
+    "fullAddress": "5501 De Marcus Boulevard, Unit 519, Dublin, CA 94568",
+    "numBeds": "2",
+    "numBaths": "2",
+    "sqft": "1269",
+    "propertyImage": "/5501-de-marcus-boulevard.jpg",
+    "description": "Charming Condo Conveniently Located in Dublin at Border of Pleasanton; Built in 2007; 2 Bed, 2 Bath; 1,269+/-SF; Situated on 5th Floor with High Ceiling & Panoramic View of Hills; Single-Level Corner Unit; Bright, Light & Airy; Modern Touches Throughout; Laminate Flooring in Living Room & Bedrooms; Open Living Dining Area with Tall Windows, Ceiling Fan & Glass Door Access to Balcony Shared with 2nd Bedroom; Gorgeous Open Kitchen with Trendy Cabinets, Granite Countertops, Breakfast Bar, Gas Range, Over-the-Range Microwave, Stainless Steel Appliances & Tile Floor; Primary Suite with Walk-in Closet, Ceiling Fan, Bathroom with Dual Sink, Corian Countertop & Oversized Stall Shower; 2nd Bedroom with Mirrored Closet Doors; Central A/C; Full Size Laundry Room; Secured Building with Security Gate Parking; Two Underground Side-by-Side Parking Spaces; Delightful Complex with Many Enjoyable Amenities Like Courtyard Gardens, Gym, Game Room & Community Room; HOA Fee covering Water, Garbage & Gas; Convenient Location Near Supermarket, Shopping, Restaurants, Parks, Trail & San Francisco Premium Outlets at Livermore; Blocks Away from Dublin/Pleasanton BART Station; Easy Access to Highway 580/680 & Close to Jobs"
   }
 ]
